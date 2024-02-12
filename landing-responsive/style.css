@@ -282,42 +282,37 @@ body{
     margin: 5px;
     display: block;
 }
-@media   screen and (max-width: 400px) {
-    .header h5{
-        display: none !important;
-        width: 100%;
+@media   screen and (max-width: 768px) {
+    .header{
+        display: none;
     }
+   
 .burger-menu{
     display: block !important;
     position: absolute;
-    right: 115px;
     top: 5px;
 }
-.section2{
-    padding-top: 70px !important;
-    padding-right: 80px;
-   
+
+.eclipse1 img{
+    width: 174.38px;
+    height: 180px;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20%);
 }
-.section2 img{
-    width: 138px;
-    height: 144px;
-    align-items: center;
+
+.eclipse2 img{
+    width: 174.38px;
+    height: 180px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%) translateY(-20%);
+    top: 20%;
 }
 .john{
-    display: block !important;
-}
-.john h3{
-    display: block;
-    width: 270px;
-    height: 120px;
-    font-family: "heebo";
-    font-size: 32px;
-    font-weight: 700;
-    line-height: 60px;
     align-items: center;
-    letter-spacing: 0px;
-    color: #21243D;
-
+    flex-direction: column;
 }
 .john p{
     width: 328px;
@@ -327,6 +322,22 @@ body{
     font-weight: 400;
     line-height: 24px;
     letter-spacing: 0px;
+    text-align: center;
+    padding-left: 45px;
+    
+}
+
+.john h3{
+    width: 307px;
+    height: 120px;
+    font-family: "heebo";
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-align: center;
+    padding-left: 45px;
+    margin-top: 180px;
     
 }
 .john button{
@@ -342,6 +353,53 @@ body{
     cursor: pointer;
     letter-spacing: 0px;
     color: #FFFFFF;
-   margin-top: 30px;
+   margin-top: 15px;
+   margin-left: 100px;
+
 }
+.section3{
+    background: #EDF7FA;
+    width: 375px;
+    height: 647px;
+    gap: 10px
+    ;
+    
+}
+.posts{
+    margin-top: 15px;
+}
+.posts h4{
+    width: 125px;
+    height: 60px;
+    font-family: "heebo";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 0px;
+   float: left;
+}
+.design h3{
+    width: 327px;
+    height: 60px;
+    font-family: "heebo";
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0px;
+    padding-right: 80px;
+    
+    
+}
+.design{
+    display: block;
+    margin-top: 15px;
+    width: 245px;
+    height: 266px;
+    border-radius: 4px;
+    background: #FFFFFF;
+   padding-right: 30%;
+   transform: translateX(-40%);
+    
+}
+
 }
